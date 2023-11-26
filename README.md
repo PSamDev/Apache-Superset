@@ -1,15 +1,14 @@
 # Apache-Superset
 Apache Superset is a data visualization tool used to display data in chart or graphs
 
-# Installation 
+# Installation and set up
 Create a virtual environment *python3 -m venv venv* 
 Activate virtual environment *venv/bin/activate*
 Download latest version of pip and setuptools *pip install --upgrade setuptools pip* 
 
 # Install superset
 pip install apache-superset
-
-# Create a superset_config.py inside the site_packages folder on the lib section of your virtual environment
+Create a superset_config.py inside the site_packages folder on the lib section of your virtual environment
 
 # Generate a secret key 
 openssl rand -base64 42
